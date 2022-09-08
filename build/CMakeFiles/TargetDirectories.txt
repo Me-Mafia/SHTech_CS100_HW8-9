@@ -1,0 +1,17 @@
+D:/CS100/89/build/CMakeFiles/ProvidedFramework.dir
+D:/CS100/89/build/CMakeFiles/GameObject.dir
+D:/CS100/89/build/CMakeFiles/GameWorld.dir
+D:/CS100/89/build/CMakeFiles/Enemy.dir
+D:/CS100/89/build/CMakeFiles/Goodie.dir
+D:/CS100/89/build/CMakeFiles/Dawn.dir
+D:/CS100/89/build/CMakeFiles/Dawnbreaker.dir
+D:/CS100/89/build/CMakeFiles/INSTALL.dir
+D:/CS100/89/build/CMakeFiles/ALL_BUILD.dir
+D:/CS100/89/build/CMakeFiles/ZERO_CHECK.dir
+D:/CS100/89/build/SOIL/CMakeFiles/SOIL.dir
+D:/CS100/89/build/SOIL/CMakeFiles/INSTALL.dir
+D:/CS100/89/build/SOIL/CMakeFiles/ALL_BUILD.dir
+D:/CS100/89/build/freeglut/CMakeFiles/freeglut.dir
+D:/CS100/89/build/freeglut/CMakeFiles/freeglut_static.dir
+D:/CS100/89/build/freeglut/CMakeFiles/INSTALL.dir
+D:/CS100/89/build/freeglut/CMakeFiles/ALL_BUILD.dir
