@@ -2,8 +2,5 @@
 
 2022/06/23
 
-*As this work is orginally created as an assignment of ShanghaiTech CS100 instead of a doujin software, thus some assets from Touhou Project: Undefined Fantastic Object have been directedly used.*
+*As this work is orginally created as an assignment of ShanghaiTech CS100, some assets from Touhou Project: Undefined Fantastic Object have been directedly used. This repistory contains an outdated version of the code, and the version passed online judge will be recoverd soon.* 😰😰😰
 
-
-Considering that this could be viewed as a violation of the conventional rules of doujin works so far, 
-the THUFO Related assets will be soonly replaced by new ones.
