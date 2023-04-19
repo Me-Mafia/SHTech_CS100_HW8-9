@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\CS100\89\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\CS100\89\build\bin\Debug\freeglut.dll</FullPath>
+      <FullPath>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\bin\Debug\freeglut.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\CS100\89\build\bin\Debug\Dawnbreaker.exe</FullPath>
+      <FullPath>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\bin\Debug\Dawnbreaker.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

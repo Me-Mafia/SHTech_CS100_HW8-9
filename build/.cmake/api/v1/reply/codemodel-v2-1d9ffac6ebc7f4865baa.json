@@ -1,0 +1,908 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11
+					]
+				},
+				{
+					"build" : "SOIL",
+					"jsonFile" : "directory-SOIL-Debug-2b7609f4db92a4d2e04c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "third_party/SOIL",
+					"targetIndexes" : 
+					[
+						1,
+						10
+					]
+				},
+				{
+					"build" : "freeglut",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-freeglut-Debug-3025ec5a1ebffe8bd3cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "third_party/freeglut",
+					"targetIndexes" : 
+					[
+						2,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Dawnbreaker",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SOIL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-dd137e8a34d733d70c2c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@745e8b768a24c48fa97d",
+					"jsonFile" : "target-ALL_BUILD-Debug-cca411502ccbd068402a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-ALL_BUILD-Debug-4aaeab48f1e371bdbc57.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dawn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dawn-Debug-62913b7bf628fb4409c3.json",
+					"name" : "Dawn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dawnbreaker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dawnbreaker-Debug-20b481198891f72a6736.json",
+					"name" : "Dawnbreaker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Enemy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Enemy-Debug-5a24380ccca09596f9c2.json",
+					"name" : "Enemy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GameObject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameObject-Debug-d7469713bef108bcceb6.json",
+					"name" : "GameObject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GameWorld::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameWorld-Debug-976acb818d1a4634bc34.json",
+					"name" : "GameWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Goodie::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Goodie-Debug-4dec85213a63baf73dc1.json",
+					"name" : "Goodie",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProvidedFramework::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProvidedFramework-Debug-9e4111ae4fb5338bc863.json",
+					"name" : "ProvidedFramework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SOIL::@745e8b768a24c48fa97d",
+					"jsonFile" : "target-SOIL-Debug-50742633fd10c403b07d.json",
+					"name" : "SOIL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-882a8a10e67dcd4001f9.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut-Debug-afacf0a8ea51c282bf16.json",
+					"name" : "freeglut",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut_static::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut_static-Debug-0df4fa1007210a46bae5.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11
+					]
+				},
+				{
+					"build" : "SOIL",
+					"jsonFile" : "directory-SOIL-Release-2b7609f4db92a4d2e04c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "third_party/SOIL",
+					"targetIndexes" : 
+					[
+						1,
+						10
+					]
+				},
+				{
+					"build" : "freeglut",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-freeglut-Release-949f29c21151f031a50d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "third_party/freeglut",
+					"targetIndexes" : 
+					[
+						2,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Dawnbreaker",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SOIL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-dd137e8a34d733d70c2c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@745e8b768a24c48fa97d",
+					"jsonFile" : "target-ALL_BUILD-Release-cca411502ccbd068402a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-ALL_BUILD-Release-4aaeab48f1e371bdbc57.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dawn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dawn-Release-c7cfd5602d8e96878127.json",
+					"name" : "Dawn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dawnbreaker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dawnbreaker-Release-0d31810bdc9682629038.json",
+					"name" : "Dawnbreaker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Enemy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Enemy-Release-806a7d7e4be6b29e6ab2.json",
+					"name" : "Enemy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GameObject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameObject-Release-924eac3cb5ade39e700c.json",
+					"name" : "GameObject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GameWorld::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameWorld-Release-19fba7fc5a2ce74b8dcc.json",
+					"name" : "GameWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Goodie::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Goodie-Release-4987dbee48cc11fba7ca.json",
+					"name" : "Goodie",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProvidedFramework::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProvidedFramework-Release-3e280a79936fc33f5e69.json",
+					"name" : "ProvidedFramework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SOIL::@745e8b768a24c48fa97d",
+					"jsonFile" : "target-SOIL-Release-9853d04396751e05ef82.json",
+					"name" : "SOIL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-882a8a10e67dcd4001f9.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut-Release-14afe0cbff57dfab4a14.json",
+					"name" : "freeglut",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut_static::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut_static-Release-20a1e968e3d28700373e.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11
+					]
+				},
+				{
+					"build" : "SOIL",
+					"jsonFile" : "directory-SOIL-MinSizeRel-2b7609f4db92a4d2e04c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "third_party/SOIL",
+					"targetIndexes" : 
+					[
+						1,
+						10
+					]
+				},
+				{
+					"build" : "freeglut",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-freeglut-MinSizeRel-37ca417ff109c93a49be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "third_party/freeglut",
+					"targetIndexes" : 
+					[
+						2,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Dawnbreaker",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SOIL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-dd137e8a34d733d70c2c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@745e8b768a24c48fa97d",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-cca411502ccbd068402a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-4aaeab48f1e371bdbc57.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dawn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dawn-MinSizeRel-b5063d29a5a9cf30dcd5.json",
+					"name" : "Dawn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dawnbreaker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dawnbreaker-MinSizeRel-e57b7a838ed5677a9e1d.json",
+					"name" : "Dawnbreaker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Enemy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Enemy-MinSizeRel-1836850131ccdc37aa5a.json",
+					"name" : "Enemy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GameObject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameObject-MinSizeRel-1ece38027502ffc1237e.json",
+					"name" : "GameObject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GameWorld::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameWorld-MinSizeRel-ce8d5b4b8202ba98f2c2.json",
+					"name" : "GameWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Goodie::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Goodie-MinSizeRel-6a24193bd5bb7a00de2c.json",
+					"name" : "Goodie",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProvidedFramework::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProvidedFramework-MinSizeRel-420c422346d0027cf8a0.json",
+					"name" : "ProvidedFramework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SOIL::@745e8b768a24c48fa97d",
+					"jsonFile" : "target-SOIL-MinSizeRel-a6b2e430d117a3f3af11.json",
+					"name" : "SOIL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-882a8a10e67dcd4001f9.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut-MinSizeRel-d4c9e4ae02360bb099c2.json",
+					"name" : "freeglut",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut_static::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut_static-MinSizeRel-af5552e4d5171de65b13.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11
+					]
+				},
+				{
+					"build" : "SOIL",
+					"jsonFile" : "directory-SOIL-RelWithDebInfo-2b7609f4db92a4d2e04c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "third_party/SOIL",
+					"targetIndexes" : 
+					[
+						1,
+						10
+					]
+				},
+				{
+					"build" : "freeglut",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-freeglut-RelWithDebInfo-2fc01bdf0e9ecb1d56b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "third_party/freeglut",
+					"targetIndexes" : 
+					[
+						2,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Dawnbreaker",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SOIL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-dd137e8a34d733d70c2c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@745e8b768a24c48fa97d",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-cca411502ccbd068402a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-4aaeab48f1e371bdbc57.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dawn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dawn-RelWithDebInfo-c2fa0866e769b5aca772.json",
+					"name" : "Dawn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dawnbreaker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dawnbreaker-RelWithDebInfo-3c07e2c4cb42f5ba6c92.json",
+					"name" : "Dawnbreaker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Enemy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Enemy-RelWithDebInfo-4750b78c4a4359b0744c.json",
+					"name" : "Enemy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GameObject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameObject-RelWithDebInfo-32ab433cba8a93ff1ef3.json",
+					"name" : "GameObject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GameWorld::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameWorld-RelWithDebInfo-511f11b92140a46c2850.json",
+					"name" : "GameWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Goodie::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Goodie-RelWithDebInfo-c5d9dcc2edc1a8159fce.json",
+					"name" : "Goodie",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProvidedFramework::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProvidedFramework-RelWithDebInfo-40953e8ac47cf4f2b589.json",
+					"name" : "ProvidedFramework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SOIL::@745e8b768a24c48fa97d",
+					"jsonFile" : "target-SOIL-RelWithDebInfo-97907d4a880016cb8753.json",
+					"name" : "SOIL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-882a8a10e67dcd4001f9.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut-RelWithDebInfo-46aecea9e674f60c4197.json",
+					"name" : "freeglut",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut_static::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut_static-RelWithDebInfo-70e9a945e5576d6a3927.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build",
+		"source" : "D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

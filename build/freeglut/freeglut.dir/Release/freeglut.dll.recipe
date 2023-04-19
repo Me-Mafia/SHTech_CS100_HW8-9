@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\CS100\89\build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\CS100\89\build\bin\Release\freeglut.dll</FullPath>
+      <FullPath>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\bin\Release\freeglut.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -1,6 +1,6 @@
-^D:\CS100\89\CMAKELISTS.TXT
+^D:\CODES\HW8AND9_CS100_SHTECH_2022SPRING-MASTER\SHTECH_CS100_HW8-9\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CS100/89 -BD:/CS100/89/build --check-stamp-file D:/CS100/89/build/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9 -BD:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build --check-stamp-file D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

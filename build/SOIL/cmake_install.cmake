@@ -1,4 +1,4 @@
-# Install script for directory: D:/CS100/89/third_party/SOIL
+# Install script for directory: D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/third_party/SOIL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

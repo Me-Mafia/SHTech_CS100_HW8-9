@@ -1,45 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\CS100\89\src\ProvidedFramework\ObjectBase.cpp">
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\src\ProvidedFramework\ObjectBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CS100\89\src\ProvidedFramework\WorldBase.cpp">
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\src\ProvidedFramework\WorldBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CS100\89\src\ProvidedFramework\GameManager.cpp">
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\src\ProvidedFramework\GameManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CS100\89\src\ProvidedFramework\SpriteManager.cpp">
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\src\ProvidedFramework\SpriteManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\CS100\89\src\ProvidedFramework\ObjectBase.h">
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\src\ProvidedFramework\ObjectBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\CS100\89\src\ProvidedFramework\WorldBase.h">
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\src\ProvidedFramework\WorldBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\CS100\89\src\ProvidedFramework\GameManager.h">
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\src\ProvidedFramework\GameManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\CS100\89\src\ProvidedFramework\SpriteManager.h">
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\src\ProvidedFramework\SpriteManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\CS100\89\src\utils.h">
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\src\utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\CS100\89\CMakeLists.txt" />
+    <CustomBuild Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D9F8D729-E629-30CE-9DA4-F56457E53816}</UniqueIdentifier>
+      <UniqueIdentifier>{579A3FF9-959F-3A86-ACFC-C1132127CE3C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{B4A3D4C9-D48E-32F8-9D05-7C681FFB4313}</UniqueIdentifier>
+      <UniqueIdentifier>{3F83E84E-E7A0-3F90-BB27-E757DB6CDB1F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

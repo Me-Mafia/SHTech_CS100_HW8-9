@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -22,10 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F5BE4AC1-95AB-39D7-9FB7-5C4BDC55C9A9}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{78EDE5A6-C2B4-3F50-8FF7-8905DDD9B94A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <Platform>x64</Platform>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>freeglut_static</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -60,45 +59,43 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CS100\89\build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">freeglut_static.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">freeglut_static</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CS100\89\build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">freeglut_static.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">freeglut_static</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CS100\89\build\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">freeglut_static.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">freeglut_static</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CS100\89\build\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">freeglut_static.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">freeglut_static</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\CS100\89\third_party\freeglut\src;D:\CS100\89\third_party\freeglut\include;D:\CS100\89\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
       </ExceptionHandling>
-      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
-      <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CS100\89\third_party\freeglut\src;D:\CS100\89\third_party\freeglut\include;D:\CS100\89\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\CS100\89\third_party\freeglut\src;D:\CS100\89\third_party\freeglut\include;D:\CS100\89\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -106,31 +103,29 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\CS100\89\third_party\freeglut\src;D:\CS100\89\third_party\freeglut\include;D:\CS100\89\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
-      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-      <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CS100\89\third_party\freeglut\src;D:\CS100\89\third_party\freeglut\include;D:\CS100\89\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\CS100\89\third_party\freeglut\src;D:\CS100\89\third_party\freeglut\include;D:\CS100\89\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -138,31 +133,29 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\CS100\89\third_party\freeglut\src;D:\CS100\89\third_party\freeglut\include;D:\CS100\89\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
-      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CS100\89\third_party\freeglut\src;D:\CS100\89\third_party\freeglut\include;D:\CS100\89\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\CS100\89\third_party\freeglut\src;D:\CS100\89\third_party\freeglut\include;D:\CS100\89\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -170,30 +163,29 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\CS100\89\third_party\freeglut\src;D:\CS100\89\third_party\freeglut\include;D:\CS100\89\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
       </ExceptionHandling>
-      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CS100\89\third_party\freeglut\src;D:\CS100\89\third_party\freeglut\include;D:\CS100\89\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\CS100\89\third_party\freeglut\src;D:\CS100\89\third_party\freeglut\include;D:\CS100\89\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -201,15 +193,15 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\CS100\89\third_party\freeglut\CMakeLists.txt">
+    <CustomBuild Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/CS100/89/third_party/freeglut/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/third_party/freeglut/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CS100/89 -BD:/CS100/89/build --check-stamp-file D:/CS100/89/build/freeglut/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9 -BD:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build --check-stamp-file D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/freeglut/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -217,12 +209,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckCCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckFunctionExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckIncludeFiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;D:\CS100\89\third_party\freeglut\FreeGLUTConfig.cmake.in;D:\CS100\89\third_party\freeglut\config.h.in;D:\CS100\89\third_party\freeglut\freeglut.pc.in;D:\CS100\89\third_party\freeglut\freeglut.rc.in;D:\CS100\89\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CS100\89\build\freeglut\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckCCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckTypeSize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\FreeGLUTConfig.cmake.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\config.h.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\freeglut.pc.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\freeglut.rc.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\freeglut\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/CS100/89/third_party/freeglut/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/third_party/freeglut/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CS100/89 -BD:/CS100/89/build --check-stamp-file D:/CS100/89/build/freeglut/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9 -BD:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build --check-stamp-file D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/freeglut/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -230,12 +222,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckCCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckFunctionExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckIncludeFiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;D:\CS100\89\third_party\freeglut\FreeGLUTConfig.cmake.in;D:\CS100\89\third_party\freeglut\config.h.in;D:\CS100\89\third_party\freeglut\freeglut.pc.in;D:\CS100\89\third_party\freeglut\freeglut.rc.in;D:\CS100\89\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CS100\89\build\freeglut\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckCCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckTypeSize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\FreeGLUTConfig.cmake.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\config.h.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\freeglut.pc.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\freeglut.rc.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\freeglut\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/CS100/89/third_party/freeglut/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/third_party/freeglut/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CS100/89 -BD:/CS100/89/build --check-stamp-file D:/CS100/89/build/freeglut/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9 -BD:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build --check-stamp-file D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/freeglut/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,12 +235,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckCCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckFunctionExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckIncludeFiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;D:\CS100\89\third_party\freeglut\FreeGLUTConfig.cmake.in;D:\CS100\89\third_party\freeglut\config.h.in;D:\CS100\89\third_party\freeglut\freeglut.pc.in;D:\CS100\89\third_party\freeglut\freeglut.rc.in;D:\CS100\89\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CS100\89\build\freeglut\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckCCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckTypeSize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\FreeGLUTConfig.cmake.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\config.h.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\freeglut.pc.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\freeglut.rc.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\freeglut\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/CS100/89/third_party/freeglut/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/third_party/freeglut/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CS100/89 -BD:/CS100/89/build --check-stamp-file D:/CS100/89/build/freeglut/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9 -BD:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build --check-stamp-file D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/freeglut/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -256,66 +248,66 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckCCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckFunctionExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckIncludeFiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;D:\CS100\89\third_party\freeglut\FreeGLUTConfig.cmake.in;D:\CS100\89\third_party\freeglut\config.h.in;D:\CS100\89\third_party\freeglut\freeglut.pc.in;D:\CS100\89\third_party\freeglut\freeglut.rc.in;D:\CS100\89\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CS100\89\build\freeglut\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckCCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckIncludeFiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CheckTypeSize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindOpenGL.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\FreeGLUTConfig.cmake.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\config.h.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\freeglut.pc.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\freeglut.rc.in;D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\freeglut\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\CS100\89\third_party\freeglut\include\GL\freeglut.h" />
-    <ClInclude Include="D:\CS100\89\third_party\freeglut\include\GL\freeglut_ucall.h" />
-    <ClInclude Include="D:\CS100\89\third_party\freeglut\include\GL\freeglut_ext.h" />
-    <ClInclude Include="D:\CS100\89\third_party\freeglut\include\GL\freeglut_std.h" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_callbacks.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_cursor.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_display.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_ext.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_font_data.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_gamemode.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_geometry.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_gl2.c" />
-    <ClInclude Include="D:\CS100\89\third_party\freeglut\src\fg_gl2.h" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_init.c" />
-    <ClInclude Include="D:\CS100\89\third_party\freeglut\src\fg_init.h" />
-    <ClInclude Include="D:\CS100\89\third_party\freeglut\src\fg_internal.h" />
-    <ClInclude Include="D:\CS100\89\third_party\freeglut\src\fg_callback_macros.h" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_input_devices.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_joystick.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_main.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_misc.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_overlay.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_spaceball.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_state.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_stroke_mono_roman.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_stroke_roman.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_structure.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_teapot.c" />
-    <ClInclude Include="D:\CS100\89\third_party\freeglut\src\fg_teapot_data.h" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_videoresize.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_window.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_font.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\fg_menu.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\mswin\fg_cursor_mswin.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\mswin\fg_display_mswin.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\mswin\fg_ext_mswin.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\mswin\fg_gamemode_mswin.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\mswin\fg_init_mswin.c" />
-    <ClInclude Include="D:\CS100\89\third_party\freeglut\src\mswin\fg_internal_mswin.h" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\mswin\fg_input_devices_mswin.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\mswin\fg_joystick_mswin.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\mswin\fg_main_mswin.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\mswin\fg_menu_mswin.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\mswin\fg_spaceball_mswin.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\mswin\fg_state_mswin.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\mswin\fg_structure_mswin.c" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\mswin\fg_window_mswin.c" />
-    <ResourceCompile Include="D:\CS100\89\build\freeglut.rc" />
-    <ClCompile Include="D:\CS100\89\third_party\freeglut\src\util\xparsegeometry_repl.c" />
-    <ClInclude Include="D:\CS100\89\third_party\freeglut\src\util\xparsegeometry_repl.h" />
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include\GL\freeglut.h" />
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include\GL\freeglut_ucall.h" />
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include\GL\freeglut_ext.h" />
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\include\GL\freeglut_std.h" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_callbacks.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_cursor.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_display.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_ext.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_font_data.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_gamemode.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_geometry.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_gl2.c" />
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_gl2.h" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_init.c" />
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_init.h" />
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_internal.h" />
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_callback_macros.h" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_input_devices.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_joystick.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_main.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_misc.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_overlay.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_spaceball.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_state.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_stroke_mono_roman.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_stroke_roman.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_structure.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_teapot.c" />
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_teapot_data.h" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_videoresize.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_window.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_font.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\fg_menu.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\mswin\fg_cursor_mswin.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\mswin\fg_display_mswin.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\mswin\fg_ext_mswin.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\mswin\fg_gamemode_mswin.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\mswin\fg_init_mswin.c" />
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\mswin\fg_internal_mswin.h" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\mswin\fg_input_devices_mswin.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\mswin\fg_joystick_mswin.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\mswin\fg_main_mswin.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\mswin\fg_menu_mswin.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\mswin\fg_spaceball_mswin.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\mswin\fg_state_mswin.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\mswin\fg_structure_mswin.c" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\mswin\fg_window_mswin.c" />
+    <ResourceCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\freeglut.rc" />
+    <ClCompile Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\util\xparsegeometry_repl.c" />
+    <ClInclude Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\third_party\freeglut\src\util\xparsegeometry_repl.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\CS100\89\build\ZERO_CHECK.vcxproj">
-      <Project>{25E2CD1F-1BA2-35E6-AC1D-0838DDE4A391}</Project>
+    <ProjectReference Include="D:\Codes\HW8AND9_CS100_SHTech_2022Spring-master\SHTech_CS100_HW8-9\build\ZERO_CHECK.vcxproj">
+      <Project>{B18F915C-0AA1-387E-B19B-2D7B7A6376C2}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

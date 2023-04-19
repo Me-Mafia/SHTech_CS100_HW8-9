@@ -1,6 +1,6 @@
-^D:\CS100\89\BUILD\CMAKEFILES\0F60C8131948BC1E46E333A5721E0EF3\GENERATE.STAMP.RULE
+^D:\CODES\HW8AND9_CS100_SHTECH_2022SPRING-MASTER\SHTECH_CS100_HW8-9\BUILD\CMAKEFILES\61B38E64707E68435D09C29AB7932DF3\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/CS100/89 -BD:/CS100/89/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CS100/89/build/Dawnbreaker.sln
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9 -BD:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/Dawnbreaker.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
