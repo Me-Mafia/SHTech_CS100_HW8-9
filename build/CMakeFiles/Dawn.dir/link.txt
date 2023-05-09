@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libDawn.a CMakeFiles/Dawn.dir/src/Dawn/Dawnbreaker.cpp.o
+/usr/bin/ranlib lib/libDawn.a

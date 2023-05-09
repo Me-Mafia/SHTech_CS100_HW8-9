@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libGoodie.a CMakeFiles/Goodie.dir/src/Goodie/Goodie.cpp.o
+/usr/bin/ranlib lib/libGoodie.a

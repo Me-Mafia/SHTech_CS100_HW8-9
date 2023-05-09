@@ -1,0 +1,1025 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Linux - 6.3.1-arch1-1 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/3.26.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/3.26.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-QCSZ63"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-QCSZ63"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-QCSZ63
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6e7e5/fast && /usr/bin/make  -f CMakeFiles/cmTC_6e7e5.dir/build.make CMakeFiles/cmTC_6e7e5.dir/build
+        make[1]: Entering directory '/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-QCSZ63'
+        Building C object CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o
+        /usr/bin/gcc   -v -o CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,objc,obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.1 20230429 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6e7e5.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6e7e5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cczj1WH8.s
+        GNU C17 (GCC) version 13.1.1 20230429 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 13.1.1 20230429, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: f7ab8f6abad0db9962575524ae915978
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6e7e5.dir/'
+         as -v --64 -o CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o /tmp/cczj1WH8.s
+        GNU assembler version 2.40.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40.0
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_6e7e5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e7e5.dir/link.txt --verbose=1
+        /usr/bin/gcc  -v CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o -o cmTC_6e7e5 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,objc,obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.1 20230429 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6e7e5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6e7e5.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOkvJE1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6e7e5 /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../.. CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6e7e5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6e7e5.'
+        make[1]: Leaving directory '/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-QCSZ63'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-QCSZ63]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6e7e5/fast && /usr/bin/make  -f CMakeFiles/cmTC_6e7e5.dir/build.make CMakeFiles/cmTC_6e7e5.dir/build]
+        ignore line: [make[1]: Entering directory '/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-QCSZ63']
+        ignore line: [Building C object CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/gcc   -v -o CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto objc obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.1.1 20230429 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6e7e5.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6e7e5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cczj1WH8.s]
+        ignore line: [GNU C17 (GCC) version 13.1.1 20230429 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.1.1 20230429  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: f7ab8f6abad0db9962575524ae915978]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6e7e5.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o /tmp/cczj1WH8.s]
+        ignore line: [GNU assembler version 2.40.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40.0]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_6e7e5]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e7e5.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/gcc  -v CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o -o cmTC_6e7e5 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto objc obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.1.1 20230429 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6e7e5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6e7e5.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOkvJE1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6e7e5 /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../.. CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccOkvJE1.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_6e7e5] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../..]
+          arg [CMakeFiles/cmTC_6e7e5.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-Om5inJ"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-Om5inJ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-Om5inJ
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_872ca/fast && /usr/bin/make  -f CMakeFiles/cmTC_872ca.dir/build.make CMakeFiles/cmTC_872ca.dir/build
+        make[1]: Entering directory '/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-Om5inJ'
+        Building CXX object CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/g++   -v -o CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,objc,obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.1 20230429 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_872ca.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_872ca.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccQycrlG.s
+        GNU C++17 (GCC) version 13.1.1 20230429 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 13.1.1 20230429, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1/x86_64-pc-linux-gnu
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1/backward
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: e149eaca55f4ee2a0171ba2b54b0dc8d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_872ca.dir/'
+         as -v --64 -o CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQycrlG.s
+        GNU assembler version 2.40.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40.0
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_872ca
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_872ca.dir/link.txt --verbose=1
+        /usr/bin/g++  -v CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_872ca 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,objc,obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.1 20230429 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_872ca' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_872ca.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccibJhYG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_872ca /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../.. CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_872ca' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_872ca.'
+        make[1]: Leaving directory '/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-Om5inJ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1/x86_64-pc-linux-gnu]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1/backward]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1] ==> [/usr/include/c++/13.1.1]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1/x86_64-pc-linux-gnu] ==> [/usr/include/c++/13.1.1/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1/backward] ==> [/usr/include/c++/13.1.1/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13.1.1;/usr/include/c++/13.1.1/x86_64-pc-linux-gnu;/usr/include/c++/13.1.1/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-Om5inJ]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_872ca/fast && /usr/bin/make  -f CMakeFiles/cmTC_872ca.dir/build.make CMakeFiles/cmTC_872ca.dir/build]
+        ignore line: [make[1]: Entering directory '/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-Om5inJ']
+        ignore line: [Building CXX object CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/g++   -v -o CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto objc obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.1.1 20230429 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_872ca.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_872ca.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccQycrlG.s]
+        ignore line: [GNU C++17 (GCC) version 13.1.1 20230429 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.1.1 20230429  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e149eaca55f4ee2a0171ba2b54b0dc8d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_872ca.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQycrlG.s]
+        ignore line: [GNU assembler version 2.40.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40.0]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_872ca]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_872ca.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/g++  -v CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_872ca ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto objc obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.1.1 20230429 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_872ca' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_872ca.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccibJhYG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_872ca /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../.. CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccibJhYG.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_872ca] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../..]
+          arg [CMakeFiles/cmTC_872ca.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:498 (check_library_exists)"
+      - "third_party/freeglut/CMakeLists.txt:324 (FIND_PACKAGE)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-cZX0e7"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-cZX0e7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-cZX0e7
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b5c2f/fast && /usr/bin/make  -f CMakeFiles/cmTC_b5c2f.dir/build.make CMakeFiles/cmTC_b5c2f.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-cZX0e7”
+        Building C object CMakeFiles/cmTC_b5c2f.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_b5c2f.dir/CheckFunctionExists.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-cZX0e7/CheckFunctionExists.c
+        Linking C executable cmTC_b5c2f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5c2f.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XOpenDisplay -rdynamic CMakeFiles/cmTC_b5c2f.dir/CheckFunctionExists.c.o -o cmTC_b5c2f  /usr/lib/libX11.so /usr/lib/libXext.so -lm 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-cZX0e7”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:513 (check_function_exists)"
+      - "third_party/freeglut/CMakeLists.txt:324 (FIND_PACKAGE)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-hUj6se"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-hUj6se"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-hUj6se
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5bd07/fast && /usr/bin/make  -f CMakeFiles/cmTC_5bd07.dir/build.make CMakeFiles/cmTC_5bd07.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-hUj6se”
+        Building C object CMakeFiles/cmTC_5bd07.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_5bd07.dir/CheckFunctionExists.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-hUj6se/CheckFunctionExists.c
+        Linking C executable cmTC_5bd07
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bd07.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gethostbyname -rdynamic CMakeFiles/cmTC_5bd07.dir/CheckFunctionExists.c.o -o cmTC_5bd07  -lm 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-hUj6se”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:527 (check_function_exists)"
+      - "third_party/freeglut/CMakeLists.txt:324 (FIND_PACKAGE)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-S4Iajp"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-S4Iajp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-S4Iajp
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4fa19/fast && /usr/bin/make  -f CMakeFiles/cmTC_4fa19.dir/build.make CMakeFiles/cmTC_4fa19.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-S4Iajp”
+        Building C object CMakeFiles/cmTC_4fa19.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_4fa19.dir/CheckFunctionExists.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-S4Iajp/CheckFunctionExists.c
+        Linking C executable cmTC_4fa19
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fa19.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=connect -rdynamic CMakeFiles/cmTC_4fa19.dir/CheckFunctionExists.c.o -o cmTC_4fa19  -lm 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-S4Iajp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:536 (check_function_exists)"
+      - "third_party/freeglut/CMakeLists.txt:324 (FIND_PACKAGE)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-gx81lS"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-gx81lS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-gx81lS
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_03be6/fast && /usr/bin/make  -f CMakeFiles/cmTC_03be6.dir/build.make CMakeFiles/cmTC_03be6.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-gx81lS”
+        Building C object CMakeFiles/cmTC_03be6.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_03be6.dir/CheckFunctionExists.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-gx81lS/CheckFunctionExists.c
+        Linking C executable cmTC_03be6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03be6.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=remove -rdynamic CMakeFiles/cmTC_03be6.dir/CheckFunctionExists.c.o -o cmTC_03be6  -lm 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-gx81lS”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:545 (check_function_exists)"
+      - "third_party/freeglut/CMakeLists.txt:324 (FIND_PACKAGE)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HxtMlH"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HxtMlH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HxtMlH
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d0dd8/fast && /usr/bin/make  -f CMakeFiles/cmTC_d0dd8.dir/build.make CMakeFiles/cmTC_d0dd8.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HxtMlH”
+        Building C object CMakeFiles/cmTC_d0dd8.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_d0dd8.dir/CheckFunctionExists.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HxtMlH/CheckFunctionExists.c
+        Linking C executable cmTC_d0dd8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0dd8.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=shmat -rdynamic CMakeFiles/cmTC_d0dd8.dir/CheckFunctionExists.c.o -o cmTC_d0dd8  -lm 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HxtMlH”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:555 (check_library_exists)"
+      - "third_party/freeglut/CMakeLists.txt:324 (FIND_PACKAGE)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-i29IQ9"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-i29IQ9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-i29IQ9
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_365d3/fast && /usr/bin/make  -f CMakeFiles/cmTC_365d3.dir/build.make CMakeFiles/cmTC_365d3.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-i29IQ9”
+        Building C object CMakeFiles/cmTC_365d3.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_365d3.dir/CheckFunctionExists.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-i29IQ9/CheckFunctionExists.c
+        Linking C executable cmTC_365d3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_365d3.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -rdynamic CMakeFiles/cmTC_365d3.dir/CheckFunctionExists.c.o -o cmTC_365d3  -lICE -lm 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-i29IQ9”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:337 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file /usr/include/X11/extensions/XInput2.h"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-2q7zcy"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-2q7zcy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_X11_EXTENSIONS_XINPUT2_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-2q7zcy
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f0348/fast && /usr/bin/make  -f CMakeFiles/cmTC_f0348.dir/build.make CMakeFiles/cmTC_f0348.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-2q7zcy”
+        Building C object CMakeFiles/cmTC_f0348.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o
+        /usr/bin/gcc   -Wall -pedantic  -o CMakeFiles/cmTC_f0348.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-2q7zcy/HAVE_X11_EXTENSIONS_XINPUT2_H.c
+        Linking C executable cmTC_f0348
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0348.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_f0348.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o -o cmTC_f0348 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-2q7zcy”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:362 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HcdiDR"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HcdiDR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HcdiDR
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a6cdf/fast && /usr/bin/make  -f CMakeFiles/cmTC_a6cdf.dir/build.make CMakeFiles/cmTC_a6cdf.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HcdiDR”
+        Building C object CMakeFiles/cmTC_a6cdf.dir/HAVE_SYS_TYPES_H.c.o
+        /usr/bin/gcc   -Wall -pedantic  -o CMakeFiles/cmTC_a6cdf.dir/HAVE_SYS_TYPES_H.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HcdiDR/HAVE_SYS_TYPES_H.c
+        Linking C executable cmTC_a6cdf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6cdf.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_a6cdf.dir/HAVE_SYS_TYPES_H.c.o -o cmTC_a6cdf 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HcdiDR”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:363 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HzQLOP"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HzQLOP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HzQLOP
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5121a/fast && /usr/bin/make  -f CMakeFiles/cmTC_5121a.dir/build.make CMakeFiles/cmTC_5121a.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HzQLOP”
+        Building C object CMakeFiles/cmTC_5121a.dir/HAVE_UNISTD_H.c.o
+        /usr/bin/gcc   -Wall -pedantic  -o CMakeFiles/cmTC_5121a.dir/HAVE_UNISTD_H.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HzQLOP/HAVE_UNISTD_H.c
+        Linking C executable cmTC_5121a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5121a.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_5121a.dir/HAVE_UNISTD_H.c.o -o cmTC_5121a 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HzQLOP”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:364 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/time.h"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HGd0zA"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HGd0zA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HGd0zA
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6d5b4/fast && /usr/bin/make  -f CMakeFiles/cmTC_6d5b4.dir/build.make CMakeFiles/cmTC_6d5b4.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HGd0zA”
+        Building C object CMakeFiles/cmTC_6d5b4.dir/HAVE_SYS_TIME_H.c.o
+        /usr/bin/gcc   -Wall -pedantic  -o CMakeFiles/cmTC_6d5b4.dir/HAVE_SYS_TIME_H.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HGd0zA/HAVE_SYS_TIME_H.c
+        Linking C executable cmTC_6d5b4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d5b4.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_6d5b4.dir/HAVE_SYS_TIME_H.c.o -o cmTC_6d5b4 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-HGd0zA”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:365 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdbool.h"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-UmnE0K"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-UmnE0K"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-UmnE0K
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_65e46/fast && /usr/bin/make  -f CMakeFiles/cmTC_65e46.dir/build.make CMakeFiles/cmTC_65e46.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-UmnE0K”
+        Building C object CMakeFiles/cmTC_65e46.dir/HAVE_STDBOOL_H.c.o
+        /usr/bin/gcc   -Wall -pedantic  -o CMakeFiles/cmTC_65e46.dir/HAVE_STDBOOL_H.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-UmnE0K/HAVE_STDBOOL_H.c
+        Linking C executable cmTC_65e46
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65e46.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_65e46.dir/HAVE_STDBOOL_H.c.o -o cmTC_65e46 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-UmnE0K”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:366 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/param.h"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-obxYWZ"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-obxYWZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-obxYWZ
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a6c12/fast && /usr/bin/make  -f CMakeFiles/cmTC_a6c12.dir/build.make CMakeFiles/cmTC_a6c12.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-obxYWZ”
+        Building C object CMakeFiles/cmTC_a6c12.dir/HAVE_SYS_PARAM_H.c.o
+        /usr/bin/gcc   -Wall -pedantic  -o CMakeFiles/cmTC_a6c12.dir/HAVE_SYS_PARAM_H.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-obxYWZ/HAVE_SYS_PARAM_H.c
+        Linking C executable cmTC_a6c12
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6c12.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_a6c12.dir/HAVE_SYS_PARAM_H.c.o -o cmTC_a6c12 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-obxYWZ”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:367 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/ioctl.h"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-ykko7A"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-ykko7A"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_SYS_IOCTL_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-ykko7A
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_055a1/fast && /usr/bin/make  -f CMakeFiles/cmTC_055a1.dir/build.make CMakeFiles/cmTC_055a1.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-ykko7A”
+        Building C object CMakeFiles/cmTC_055a1.dir/HAVE_SYS_IOCTL_H.c.o
+        /usr/bin/gcc   -Wall -pedantic  -o CMakeFiles/cmTC_055a1.dir/HAVE_SYS_IOCTL_H.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-ykko7A/HAVE_SYS_IOCTL_H.c
+        Linking C executable cmTC_055a1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_055a1.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_055a1.dir/HAVE_SYS_IOCTL_H.c.o -o cmTC_055a1 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-ykko7A”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:368 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file fcntl.h"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-qfrFfP"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-qfrFfP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-qfrFfP
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c8c96/fast && /usr/bin/make  -f CMakeFiles/cmTC_c8c96.dir/build.make CMakeFiles/cmTC_c8c96.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-qfrFfP”
+        Building C object CMakeFiles/cmTC_c8c96.dir/HAVE_FCNTL_H.c.o
+        /usr/bin/gcc   -Wall -pedantic  -o CMakeFiles/cmTC_c8c96.dir/HAVE_FCNTL_H.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-qfrFfP/HAVE_FCNTL_H.c
+        Linking C executable cmTC_c8c96
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8c96.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_c8c96.dir/HAVE_FCNTL_H.c.o -o cmTC_c8c96 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-qfrFfP”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:369 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file usbhid.h"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-k9llQO"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-k9llQO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_USBHID_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-k9llQO
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5b002/fast && /usr/bin/make  -f CMakeFiles/cmTC_5b002.dir/build.make CMakeFiles/cmTC_5b002.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-k9llQO”
+        Building C object CMakeFiles/cmTC_5b002.dir/HAVE_USBHID_H.c.o
+        /usr/bin/gcc   -Wall -pedantic  -o CMakeFiles/cmTC_5b002.dir/HAVE_USBHID_H.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-k9llQO/HAVE_USBHID_H.c
+        /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-k9llQO/HAVE_USBHID_H.c:2:10: 致命错误：usbhid.h：没有那个文件或目录
+            2 | #include <usbhid.h>
+              |          ^~~~~~~~~~
+        编译中断。
+        make[1]: *** [CMakeFiles/cmTC_5b002.dir/build.make:78：CMakeFiles/cmTC_5b002.dir/HAVE_USBHID_H.c.o] 错误 1
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-k9llQO”
+        make: *** [Makefile:127：cmTC_5b002/fast] 错误 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:370 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-z21BjB"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-z21BjB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-z21BjB
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_61894/fast && /usr/bin/make  -f CMakeFiles/cmTC_61894.dir/build.make CMakeFiles/cmTC_61894.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-z21BjB”
+        Building C object CMakeFiles/cmTC_61894.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday -o CMakeFiles/cmTC_61894.dir/CheckFunctionExists.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-z21BjB/CheckFunctionExists.c
+        Linking C executable cmTC_61894
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61894.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday -rdynamic CMakeFiles/cmTC_61894.dir/CheckFunctionExists.c.o -o cmTC_61894  -lm 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-z21BjB”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:371 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for XParseGeometry"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-hi02LA"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-hi02LA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_XPARSEGEOMETRY"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-hi02LA
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_55c9d/fast && /usr/bin/make  -f CMakeFiles/cmTC_55c9d.dir/build.make CMakeFiles/cmTC_55c9d.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-hi02LA”
+        Building C object CMakeFiles/cmTC_55c9d.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -o CMakeFiles/cmTC_55c9d.dir/CheckFunctionExists.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-hi02LA/CheckFunctionExists.c
+        Linking C executable cmTC_55c9d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55c9d.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -rdynamic CMakeFiles/cmTC_55c9d.dir/CheckFunctionExists.c.o -o cmTC_55c9d  -lm 
+        /usr/bin/ld: CMakeFiles/cmTC_55c9d.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x10): undefined reference to `XParseGeometry'
+        collect2: 错误：ld 返回 1
+        make[1]: *** [CMakeFiles/cmTC_55c9d.dir/build.make:99：cmTC_55c9d] 错误 1
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-hi02LA”
+        make: *** [Makefile:127：cmTC_55c9d/fast] 错误 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:379 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-pGMjgJ"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-pGMjgJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-pGMjgJ
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f3fac/fast && /usr/bin/make  -f CMakeFiles/cmTC_f3fac.dir/build.make CMakeFiles/cmTC_f3fac.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-pGMjgJ”
+        Building C object CMakeFiles/cmTC_f3fac.dir/HAVE_STDINT_H.c.o
+        /usr/bin/gcc   -Wall -pedantic  -o CMakeFiles/cmTC_f3fac.dir/HAVE_STDINT_H.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-pGMjgJ/HAVE_STDINT_H.c
+        Linking C executable cmTC_f3fac
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3fac.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_f3fac.dir/HAVE_STDINT_H.c.o -o cmTC_f3fac 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-pGMjgJ”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "third_party/freeglut/CMakeLists.txt:380 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-ZuBhUI"
+      binary: "/home/yzwnoaki/\u6587\u6863/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-ZuBhUI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -pedantic"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-ZuBhUI
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a45bd/fast && /usr/bin/make  -f CMakeFiles/cmTC_a45bd.dir/build.make CMakeFiles/cmTC_a45bd.dir/build
+        make[1]: 进入目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-ZuBhUI”
+        Building C object CMakeFiles/cmTC_a45bd.dir/HAVE_INTTYPES_H.c.o
+        /usr/bin/gcc   -Wall -pedantic  -o CMakeFiles/cmTC_a45bd.dir/HAVE_INTTYPES_H.c.o -c /home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-ZuBhUI/HAVE_INTTYPES_H.c
+        Linking C executable cmTC_a45bd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a45bd.dir/link.txt --verbose=1
+        /usr/bin/gcc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_a45bd.dir/HAVE_INTTYPES_H.c.o -o cmTC_a45bd 
+        make[1]: 离开目录“/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/CMakeFiles/CMakeScratch/TryCompile-ZuBhUI”
+        
+      exitCode: 0
+...

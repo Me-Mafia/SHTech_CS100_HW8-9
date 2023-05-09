@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.3")
    message(FATAL_ERROR "CMake >= 2.8.3 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.3...3.23)
+cmake_policy(VERSION 2.8.3...3.24)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -50,71 +50,28 @@ unset(_cmake_expected_targets)
 add_library(FreeGLUT::freeglut SHARED IMPORTED)
 
 set_target_properties(FreeGLUT::freeglut PROPERTIES
-  INTERFACE_LINK_LIBRARIES "opengl32;winmm"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/libGL.so;m;/usr/lib/libX11.so;/usr/lib/libXrandr.so;/usr/lib/libXxf86vm.so;/usr/lib/libXi.so"
 )
 
 # Create imported target FreeGLUT::freeglut_static
 add_library(FreeGLUT::freeglut_static STATIC IMPORTED)
 
 set_target_properties(FreeGLUT::freeglut_static PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "FREEGLUT_STATIC"
-  INTERFACE_LINK_LIBRARIES "opengl32;winmm"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/libGL.so;m;/usr/lib/libX11.so;/usr/lib/libXrandr.so;/usr/lib/libXxf86vm.so;/usr/lib/libXi.so"
 )
 
 # Import target "FreeGLUT::freeglut" for configuration "Debug"
 set_property(TARGET FreeGLUT::freeglut APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(FreeGLUT::freeglut PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/lib/Debug/freeglut.lib"
-  IMPORTED_LOCATION_DEBUG "D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/bin/Debug/freeglut.dll"
+  IMPORTED_LOCATION_DEBUG "/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/lib/libglut.so.3.11.1"
+  IMPORTED_SONAME_DEBUG "libglut.so.3"
   )
 
 # Import target "FreeGLUT::freeglut_static" for configuration "Debug"
 set_property(TARGET FreeGLUT::freeglut_static APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(FreeGLUT::freeglut_static PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C;RC"
-  IMPORTED_LOCATION_DEBUG "D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/lib/Debug/freeglut_static.lib"
-  )
-
-# Import target "FreeGLUT::freeglut" for configuration "Release"
-set_property(TARGET FreeGLUT::freeglut APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(FreeGLUT::freeglut PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/lib/Release/freeglut.lib"
-  IMPORTED_LOCATION_RELEASE "D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/bin/Release/freeglut.dll"
-  )
-
-# Import target "FreeGLUT::freeglut_static" for configuration "Release"
-set_property(TARGET FreeGLUT::freeglut_static APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(FreeGLUT::freeglut_static PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C;RC"
-  IMPORTED_LOCATION_RELEASE "D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/lib/Release/freeglut_static.lib"
-  )
-
-# Import target "FreeGLUT::freeglut" for configuration "MinSizeRel"
-set_property(TARGET FreeGLUT::freeglut APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
-set_target_properties(FreeGLUT::freeglut PROPERTIES
-  IMPORTED_IMPLIB_MINSIZEREL "D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/lib/MinSizeRel/freeglut.lib"
-  IMPORTED_LOCATION_MINSIZEREL "D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/bin/MinSizeRel/freeglut.dll"
-  )
-
-# Import target "FreeGLUT::freeglut_static" for configuration "MinSizeRel"
-set_property(TARGET FreeGLUT::freeglut_static APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
-set_target_properties(FreeGLUT::freeglut_static PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "C;RC"
-  IMPORTED_LOCATION_MINSIZEREL "D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/lib/MinSizeRel/freeglut_static.lib"
-  )
-
-# Import target "FreeGLUT::freeglut" for configuration "RelWithDebInfo"
-set_property(TARGET FreeGLUT::freeglut APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(FreeGLUT::freeglut PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/lib/RelWithDebInfo/freeglut.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/bin/RelWithDebInfo/freeglut.dll"
-  )
-
-# Import target "FreeGLUT::freeglut_static" for configuration "RelWithDebInfo"
-set_property(TARGET FreeGLUT::freeglut_static APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(FreeGLUT::freeglut_static PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C;RC"
-  IMPORTED_LOCATION_RELWITHDEBINFO "D:/Codes/HW8AND9_CS100_SHTech_2022Spring-master/SHTech_CS100_HW8-9/build/lib/RelWithDebInfo/freeglut_static.lib"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
+  IMPORTED_LOCATION_DEBUG "/home/yzwnoaki/文档/cs100-181/SHTech_CS100_HW8-9/build/lib/libglut.a"
   )
 
 # This file does not depend on other imported targets which have

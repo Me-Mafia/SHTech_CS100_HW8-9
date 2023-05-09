@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libProvidedFramework.a CMakeFiles/ProvidedFramework.dir/src/ProvidedFramework/ObjectBase.cpp.o CMakeFiles/ProvidedFramework.dir/src/ProvidedFramework/WorldBase.cpp.o CMakeFiles/ProvidedFramework.dir/src/ProvidedFramework/GameManager.cpp.o CMakeFiles/ProvidedFramework.dir/src/ProvidedFramework/SpriteManager.cpp.o
+/usr/bin/ranlib lib/libProvidedFramework.a
